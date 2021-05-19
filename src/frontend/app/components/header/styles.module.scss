@@ -1,0 +1,9 @@
+.header {
+  align-items: center;
+  box-shadow: var(--header-shadow);
+  display: flex;
+  grid-area: header;
+  padding-left: 1%;
+  padding-right: 1%;
+  justify-content: baseline;
+}

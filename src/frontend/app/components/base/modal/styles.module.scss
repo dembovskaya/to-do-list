@@ -1,0 +1,59 @@
+.show {
+  display: flex;
+  align-items: center;
+}
+
+.modal-header {
+  text-align: center;
+  border-color: var(--form-add-task-border);
+
+  @media screen and (max-width: 425px) {
+    padding-right: 0%;
+  }
+}
+
+.modal-content {
+  background-color: var(--bg-task);
+  box-shadow: var(--box-shadow-task);
+  width: 115%;
+  border-radius: 10px;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 80%;
+    margin-left: 35%;
+    margin-bottom: 35%;
+  }
+
+  @media screen and (max-width: 375px) {
+    width: 80%;
+    margin-left: 23%;
+    margin-bottom: 35%;
+  }
+
+  @media screen and (max-width: 320px) {
+    width: 80%;
+    margin-left: 12%;
+    margin-bottom: 30%;
+  }
+}
+
+.modal-footer {
+  border: none;
+
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.modal-title {
+  padding-left: 10px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}

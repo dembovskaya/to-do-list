@@ -1,0 +1,64 @@
+.task {
+  background-color: var(--bg-task);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-task);
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-wrap: break-all;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.title {
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.text {
+  padding-bottom: 10px;
+}
+
+.titleContainer {
+  padding-top: 10px;
+  font-size: 16px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.titleContainer,
+.deadlineContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-variant: small-caps;
+}
+
+.edit {
+  font-size: 20px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.ban {
+  margin-right: 1px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}

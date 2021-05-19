@@ -1,0 +1,11 @@
+.logoName {
+  color: #CC512B;
+  font-size: 26px;
+  font-variant: small-caps;
+  margin-bottom: 5px;
+  margin-left: 1%;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}

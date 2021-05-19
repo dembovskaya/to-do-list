@@ -1,0 +1,56 @@
+.form {
+  background-color: var(--form-add-task-color-modal);
+  padding: 10px;
+}
+
+.title,
+.description,
+.status,
+.deadline {
+  margin-bottom: 1%;
+  box-shadow: 0 7px 10px rgba(0,0,0,0.20);
+  font-variant: small-caps;
+  background-color: var(--bg-task);
+  border: 1px solid var(--form-add-task-border);
+  color: var(--text-color);
+
+  @media screen and (max-width: 768px) {
+    height: 30px;
+  }
+
+  @media screen and (max-width: 425px) {
+    height: 25px;
+  }
+}
+
+.deadline {
+  font-size: 14px;
+}
+
+.deadline:active,
+.deadline:focus,
+.title:active,
+.title:focus,
+.description:active,
+.description:focus,
+.status:active,
+.status:focus {
+  background-color: var(--search-bar-bg-active);
+  border: 1px solid var(--form-add-task-border);
+}
+
+.description {
+  margin-bottom: 5%;
+
+  @media screen and (max-width: 425px) {
+    margin-bottom: 1%;
+  }
+}
+
+.title {
+  margin-top: 5%;
+
+  @media screen and (max-width: 425px) {
+    margin-top: 1%;
+  }
+}

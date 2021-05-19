@@ -1,0 +1,40 @@
+.icon {
+  color: var(--icon);
+  font-size: 18px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.sun {
+  margin-left: 25%;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 50%;
+  }
+
+  @media screen and (max-width: 426px) {
+    margin-left: 5%;
+  }
+
+  @media screen and (max-width: 321px) {
+    margin-left: 4%;
+  }
+}
+
+.moon {
+  margin-left: 25%;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 50%;
+  }
+
+  @media screen and (max-width: 426px) {
+    margin-left: 5%;
+  }
+
+  @media screen and (max-width: 321px) {
+    margin-left: 4%;
+  }
+}

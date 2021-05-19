@@ -1,0 +1,1 @@
+export { logoName } from './component';

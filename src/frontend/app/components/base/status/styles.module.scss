@@ -1,0 +1,43 @@
+.status {
+  width: 100%;
+  border: none;
+}
+
+.done,
+.important,
+.in-progress,
+.to-do {
+  font-weight: 700;
+}
+
+.to-do {
+  color: var(--to-do);
+}
+
+.in-progress {
+  color: var(--in-progress);
+}
+
+.done {
+  color: var(--done);
+}
+
+.important {
+  color: var(--important);
+}
+
+.task-in-progress {
+  border-left: 5px solid var(--in-progress);
+}
+
+.task-done {
+  border-left: 5px solid var(--done);
+}
+
+.task-important {
+  border-left: 5px solid var(--important);
+}
+
+.task-to-do {
+  border-left: 5px solid var(--to-do);
+}

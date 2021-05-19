@@ -1,0 +1,32 @@
+.search-bar {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 5px;
+  width: 25%;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 3%;
+    height: 30px;
+  }
+
+  @media screen and (max-width: 426px) {
+    margin-left: 2%;
+    height: 25px;
+    width: 55%;
+  }
+
+  @media screen and (max-width: 376px) {
+    margin-left: 2%;
+    height: 25px;
+    width: 50%;
+  }
+
+  @media screen and (max-width: 321px) {
+    margin-left: 2%;
+    height: 25px;
+    width: 45%;
+  }
+}
+
